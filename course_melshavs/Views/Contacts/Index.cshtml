@@ -1,0 +1,85 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Контакти";
+}
+
+<link rel="stylesheet" href="/css/contacts.css">
+
+<section class="contacts-banner text-center py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Текст -->
+            <div class="col-md-6">
+                <h1 class="display-4 fw-bold text-gradient">Зв'яжіться з нами</h1>
+                <p class="lead">Ми завжди раді вашим відгукам, запитанням та пропозиціям!</p>
+            </div>
+            <!-- Фото -->
+            <div class="col-md-6">
+                <img src="/images/contacts_banner2.jpg" alt="Контакти" class="img-fluid rounded">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contacts-info py-5">
+    <div class="container">
+        <h2 class="text-center mb-4 fw-bold">Наші контакти</h2>
+        <div class="row">
+            <!-- Контактні дані -->
+            <div class="col-md-6">
+                <h3><i class="bi bi-telephone-fill"></i> Телефон</h3>
+                <p><a href="tel:+380123456789">+380 93 835 72 87</a></p>
+
+                <h3><i class="bi bi-geo-alt-fill"></i> Адреса</h3>
+                <p>м. Одеса, вул. Шаурмова, 20</p>
+
+                <h3><i class="bi bi-envelope-fill"></i> Електронна пошта</h3>
+                <p><a href="mailto:info_melshavs@gmail.com">info_melshavs@gmail.com</a></p>
+            </div>
+
+            <!-- Зворотній зв'язок -->
+            <div class="col-md-6">
+                <h3><i class="bi bi-chat-dots-fill"></i> Зворотній зв'язок</h3>
+                <p>Якщо у вас є пропозиції, скарги чи питання, напишіть нам:</p>
+                <form action="/ContactUs" method="POST" class="feedback-form" id="contact-form">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Ваше ім'я</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Ваш email</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Ваше повідомлення</label>
+                        <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Надіслати</button>
+                </form>
+
+                <!-- Повідомлення про успіх -->
+                <div id="success-message" class="alert alert-success mt-3" style="display: none;">
+                    <strong>Успішно відправлено!</strong> Дякуємо за ваше повідомлення. Ми зв'яжемося з вами найближчим часом.
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    // Обробник форми для виведення повідомлення про успіх і очищення форми
+    document.getElementById('contact-form').addEventListener('submit', function(event) {
+        event.preventDefault(); // запобігаємо стандартній відправці форми
+
+        // Показуємо повідомлення про успішну відправку
+        document.getElementById('success-message').style.display = 'block';
+
+        // Очищаємо форму
+        document.getElementById('contact-form').reset();
+
+        // Затримку для приховання повідомлення через деякий час = 5 секунд
+        setTimeout(function() {
+            document.getElementById('success-message').style.display = 'none';
+        }, 5000);
+    });
+</script>

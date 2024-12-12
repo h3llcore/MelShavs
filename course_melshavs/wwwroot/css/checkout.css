@@ -1,0 +1,88 @@
+﻿/* checkout.css */
+
+.container {
+    max-width: 600px;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    color: #343a40;
+    font-weight: 600;
+}
+
+.form-label {
+    font-size: 16px;
+    color: #495057;
+    font-weight: 500;
+}
+
+.form-control {
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    padding: 12px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+    .form-control:focus {
+        border-color: #007bff;
+        box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
+    }
+
+textarea.form-control {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 20px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    width: 100%;
+    cursor: pointer;
+}
+
+    button[type="submit"]:hover {
+        background-color: #0056b3;
+    }
+
+    button[type="submit"]:focus {
+        outline: none;
+        box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+    }
+
+.mb-3 {
+    margin-bottom: 20px;
+}
+
+.needs-validation {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+    background-color: #f8f9fa;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #6c757d;
+    font-style: italic;
+}
+
+input:invalid, textarea:invalid {
+    border-color: #dc3545;
+}
+
+input:valid, textarea:valid {
+    border-color: #28a745;
+}
+
+input[type="tel"]:focus, input[type="text"]:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
+}

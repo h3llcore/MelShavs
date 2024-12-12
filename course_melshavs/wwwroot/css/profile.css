@@ -1,0 +1,86 @@
+﻿/* ===== СТИЛІ ДЛЯ ПРИМІЩЕННЯ ПРОФІЛЮ ===== */
+.profile-container {
+    max-width: 900px; /* Максимальна ширина контейнера */
+    margin: 0 auto; /* Центрування контейнера */
+    padding: 20px; /* Відступи для контенту */
+}
+
+/* ===== СТИЛІ ДЛЯ КАРТКИ ПРОФІЛЮ ===== */
+.card {
+    background-color: #ffffff; /* Білий фон */
+    border-radius: 15px; /* Округлені краї */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Легка тінь для об'єму */
+    padding: 30px; /* Внутрішні відступи */
+    /* Убрали подъем при наведении */
+    transition: none; /* Без анимации */
+}
+
+    /* Заголовок */
+    .card h2 {
+        font-size: 2rem; /* Розмір шрифту заголовка */
+        color: #343a40; /* Темно-сірий колір */
+        font-weight: 600; /* Напівжирний шрифт */
+        margin-bottom: 20px; /* Відступи знизу */
+        text-align: center; /* Центрування заголовка */
+    }
+
+    /* Текст у профілі */
+    .card p {
+        font-size: 1.1rem; /* Розмір тексту */
+        color: #495057; /* Світло-сірий текст */
+        margin-bottom: 10px; /* Відступи між абзацами */
+    }
+
+        .card p strong {
+            color: inherit; /* Убираем синий цвет */
+        }
+
+/* ===== СТИЛІ ДЛЯ КНОПОК ===== */
+.btn {
+    padding: 12px 20px; /* Відступи всередині кнопок */
+    border-radius: 30px; /* Округлені кнопки */
+    font-size: 1rem; /* Стандартний розмір шрифту */
+    font-weight: 600; /* Жирний текст */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Плавна зміна кольору та анімація */
+}
+
+/* Стилі для кнопки "Редагувати профіль" */
+.btn-outline-primary {
+    border: 2px solid #007bff;
+    color: #007bff;
+    background-color: transparent;
+}
+
+    .btn-outline-primary:hover {
+        background-color: #007bff;
+        color: #fff;
+        transform: scale(1.05); /* Легке збільшення при наведенні */
+    }
+
+/* Стилі для кнопки "Змінити пароль" */
+.btn-warning {
+    background-color: #f0ad4e;
+    color: #fff;
+    border: none;
+}
+
+    .btn-warning:hover {
+        background-color: #ec971f;
+        transform: scale(1.05);
+    }
+
+/* ===== МЕДІА-ЗАПИТИ ДЛЯ МОБІЛЬНИХ ===== */
+@media (max-width: 768px) {
+    .profile-container {
+        padding: 10px; /* Менші відступи для мобільних */
+    }
+
+    .card {
+        padding: 20px; /* Зменшене відступи всередині картки */
+    }
+
+    .btn {
+        width: 100%; /* Кнопки на всю ширину */
+        margin-bottom: 10px; /* Відступ між кнопками */
+    }
+}

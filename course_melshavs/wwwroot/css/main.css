@@ -1,0 +1,130 @@
+﻿body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Задаём минимальную высоту страницы */
+}
+
+main {
+    flex: 1; /* Основной контент заполняет пространство */
+}
+
+/* Стили для секции 'Про нас' */
+.about-us {
+    margin-top: 20px !important;
+    margin-bottom: 20px; /* Уменьшаем отступ снизу */
+    padding-bottom: 20px !important;
+}
+
+/* Стили для секции 'Чому саме MelShavs' */
+.why-us {
+    margin-top: 15px !important; /* Уменьшаем отступ сверху */
+    margin-bottom: 20px; /* Уменьшаем отступ снизу */
+    padding-top: 20px !important; /* Уменьшаем padding сверху */
+    padding-bottom: 20px; /* Уменьшаем padding снизу */
+}
+
+/* Для изображений в блоках .why-us */
+.why-us .row img {
+    width: 100%;  /* Задаем ширину 100% относительно родительского элемента */
+    max-width: 230px; /* Ограничиваем максимальную ширину */
+    height: 230px; /* Задаем фиксированную высоту, чтобы изображения были квадратными */
+    object-fit: cover; /* Заполняем изображение в контейнере, сохраняя пропорции */
+    border-radius: 8px; /* Скругляем углы изображения */
+    margin: 0 auto; /* Выравниваем изображения по центру */
+}
+
+footer {
+    margin-top: auto; /* Фиксируем футер внизу */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+section {
+    margin-top: 0 !important;
+}
+
+/* Навигация */
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 10;
+}
+
+.navbar .nav-link {
+    color: #555 !important;
+}
+
+.navbar .nav-link:hover {
+    color: #007bff !important;
+}
+
+/* Основний баннер */
+.main-banner {
+    background-image: url('/images/banner.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    position: relative;
+    z-index: 10;
+    animation: none;
+    background-attachment: fixed; /* Эффект параллакса */
+    overflow: hidden; /* Скрывает все, что выходит за пределы */
+}
+
+.main-banner h1,
+.main-banner p,
+.main-banner a {
+    position: relative;
+    z-index: 2;
+}
+
+.main-banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Блок с текстом fade-in */
+.fade-in {
+    opacity: 1; /* Сразу видим */
+    transform: translateY(0); /* Убираем сдвиг */
+    animation: none; /* Без анимации */
+}
+
+.hidden {
+    pointer-events: none;
+    opacity: 0;
+    display: none;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+
+/* Кошик */
+.ms-3 a {
+    margin-left: 20px;
+}
+
+/* Для кнопок и элементов навигации */
+.navbar-nav {
+    flex-grow: 1; /* Расширяет навигацию, чтобы "Кошик" не смещал элементы */
+    justify-content: flex-end; /* Выравнивание кнопок по правому краю */
+}
+
+/* Убираем внутренние отступы у кнопок */
+.navbar .btn {
+    padding: 0.375rem 0.75rem;
+}

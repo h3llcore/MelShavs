@@ -1,0 +1,202 @@
+﻿/* ===== СТИЛІ ДЛЯ СТОРІНКИ ЛОГІНУ ===== */
+
+/* Загальний стиль для сторінки */
+.login-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    background: #f8f9fa; /* Світлий фон сторінки */
+}
+
+/* Ліва частина сторінки (вітання) */
+.login-left {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+    .login-left h1 {
+        font-size: 2.5rem; /* Великий заголовок */
+        margin-bottom: 20px;
+        color: #007bff; /* Синій колір */
+    }
+
+    .login-left p {
+        font-size: 1.2rem; /* Розмір тексту опису */
+        color: #495057; /* Тьмяний сірий */
+        margin-bottom: 20px;
+    }
+
+    .login-left .login-image {
+        max-width: 80%;
+        border-radius: 10px; /* Округлені краї зображення */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Легка тінь */
+    }
+
+/* Права частина сторінки (форма входу) */
+.login-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Карта (контейнер) для форми входу */
+.login-card {
+    width: 100%;
+    max-width: 400px; /* Максимальна ширина форми */
+    padding: 20px;
+    border-radius: 10px; /* Округлені краї контейнера */
+    background: #ffffff; /* Білий фон */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Легка тінь */
+}
+
+    .login-card h2 {
+        font-size: 1.8rem; /* Заголовок форми */
+        color: #343a40; /* Темно-сірий */
+        text-align: center;
+    }
+
+/* ===== СТИЛІ ДЛЯ ПОЛІВ ВВЕДЕННЯ ===== */
+
+/* Поля введення: зменшена обводка */
+.form-control {
+    border: 1px solid #ced4da; /* Тонка границя */
+    border-radius: 5px; /* Округлення країв */
+    padding: 8px 12px; /* Зменшені відступи */
+    font-size: 1rem; /* Стандартний розмір шрифту */
+    color: #495057; /* Темний текст */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Плавний перехід стилів */
+}
+
+    .form-control:focus {
+        border-color: #007bff; /* Синя рамка при фокусі */
+        box-shadow: 0 0 4px rgba(0, 123, 255, 0.25); /* Легка підсвітка */
+        outline: none; /* Відсутність стандартного обводу */
+    }
+
+/* Лейбли для полів введення */
+label {
+    font-size: 0.9rem; /* Невеликий шрифт */
+    font-weight: 500; /* Напівжирний текст */
+    color: #495057; /* Тьмяний сірий */
+    margin-bottom: 5px; /* Відступ між лейблом і полем */
+    display: block; /* Щоб текст завжди був над полем */
+}
+
+/* ===== СТИЛІ ДЛЯ КНОПКИ "УВІЙТИ" ===== */
+.btn-primary {
+    background: #007bff; /* Синій фон */
+    color: #ffffff; /* Білий текст */
+    font-size: 1rem; /* Розмір тексту */
+    font-weight: bold; /* Жирний текст */
+    border: none; /* Без границі */
+    border-radius: 5px; /* Округлені краї */
+    padding: 10px 20px; /* Відступи всередині кнопки */
+    transition: background 0.3s ease, transform 0.2s ease; /* Плавні ефекти */
+}
+
+    .btn-primary:hover {
+        background: #0056b3; /* Темно-синій при наведенні */
+        transform: scale(1.05); /* Легке збільшення */
+        box-shadow: 0 4px 8px rgba(0, 91, 187, 0.2); /* Тінь при наведенні */
+    }
+
+/* ===== СТИЛІ ДЛЯ КНОПКИ "ЩЕ НЕ МАЄТЕ АКАУНТА?" ===== */
+.text-secondary {
+    color: #6c757d; /* Тьмяний сірий колір */
+    font-size: 1rem; /* Стандартний розмір тексту */
+}
+
+    .text-secondary a {
+        color: #007bff; /* Синій колір для посилання */
+        font-weight: bold; /* Жирний текст */
+        text-decoration: none; /* Без підкреслення */
+        transition: color 0.3s ease; /* Плавна зміна кольору при наведенні */
+    }
+
+        .text-secondary a:hover {
+            color: #0056b3; /* Темно-синій при наведенні */
+            text-decoration: underline; /* Підкреслення при наведенні */
+        }
+
+.text-center {
+    text-align: center;
+}
+
+.mt-3 {
+    margin-top: 1rem;
+}
+
+/* ===== СТИЛІ ДЛЯ СОЦІАЛЬНИХ КНОПОК ===== */
+.social-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px; /* Відступ між іконкою та текстом */
+    padding: 10px 15px; /* Внутрішні відступи */
+    font-size: 1rem; /* Розмір тексту */
+    font-weight: bold; /* Жирний текст */
+    border-radius: 5px; /* Округлені краї */
+    transition: background 0.3s ease, transform 0.2s ease; /* Плавний перехід */
+}
+
+    .social-btn i {
+        font-size: 1.2rem; /* Розмір іконки */
+    }
+
+/* Кнопка для Google */
+.btn-outline-danger {
+    border: 2px solid #dc3545; /* Червона рамка */
+    color: #dc3545; /* Червоний текст */
+    background: #ffffff; /* Білий фон */
+}
+
+    .btn-outline-danger:hover {
+        background: #dc3545; /* Червоний фон при наведенні */
+        color: #ffffff; /* Білий текст при наведенні */
+        transform: scale(1.05); /* Легке збільшення */
+    }
+
+/* Кнопка для Facebook */
+.btn-outline-primary {
+    border: 2px solid #007bff; /* Синя рамка */
+    color: #007bff; /* Синій текст */
+    background: #ffffff; /* Білий фон */
+}
+
+    .btn-outline-primary:hover {
+        background: #007bff; /* Синій фон при наведенні */
+        color: #ffffff; /* Білий текст при наведенні */
+        transform: scale(1.05); /* Легке збільшення */
+    }
+
+/* ===== СТИЛІ ДЛЯ ССИЛОК ===== */
+.text-secondary {
+    color: #6c757d; /* Тьмяний сірий */
+    text-decoration: none; /* Без підкреслення */
+    font-size: 0.9rem; /* Невеликий шрифт */
+}
+
+    .text-secondary:hover {
+        text-decoration: underline; /* Підкреслення при наведенні */
+        color: #343a40; /* Темно-сірий текст при наведенні */
+    }
+
+
+/* Стиль для предупреждения об ошибке */
+.alert-danger {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+    .alert-danger strong {
+        font-weight: bold;
+    }

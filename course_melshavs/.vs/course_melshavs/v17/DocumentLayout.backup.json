@@ -1,0 +1,676 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|d:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|solutionrelative:views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|d:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\views\\account\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|solutionrelative:views\\account\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|d:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|solutionrelative:controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|d:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\controllers\\deliverycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|solutionrelative:controllers\\deliverycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|d:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|solutionrelative:controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|d:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|solutionrelative:controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|d:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|d:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|solutionrelative:controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|d:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/course_melshavs_db/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|d:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\views\\account\\profileedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|solutionrelative:views\\account\\profileedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|d:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\models\\editprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|solutionrelative:models\\editprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|d:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\views\\admin\\adminpanel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|solutionrelative:views\\admin\\adminpanel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|d:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\views\\admin\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|solutionrelative:views\\admin\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|d:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|d:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\wwwroot\\css\\order-history.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|solutionrelative:wwwroot\\css\\order-history.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|d:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\views\\account\\orderhistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|solutionrelative:views\\account\\orderhistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|d:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|d:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|d:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|solutionrelative:wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|d:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\views\\cart\\orderconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|solutionrelative:views\\cart\\orderconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|d:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\wwwroot\\css\\orders.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|solutionrelative:wwwroot\\css\\orders.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|d:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\wwwroot\\css\\change-password.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|solutionrelative:wwwroot\\css\\change-password.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|d:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\views\\menu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|solutionrelative:views\\menu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|d:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\wwwroot\\css\\menu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|solutionrelative:wwwroot\\css\\menu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|d:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|d:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\wwwroot\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|solutionrelative:wwwroot\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|d:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\wwwroot\\css\\profile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|solutionrelative:wwwroot\\css\\profile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|d:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\views\\delivery\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|solutionrelative:views\\delivery\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|d:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\wwwroot\\css\\profile-edit.css||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|solutionrelative:wwwroot\\css\\profile-edit.css||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|d:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\views\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|solutionrelative:views\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|d:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\views\\contacts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|solutionrelative:views\\contacts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|d:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\wwwroot\\css\\register.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|solutionrelative:wwwroot\\css\\register.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|d:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\wwwroot\\css\\delivery.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|solutionrelative:wwwroot\\css\\delivery.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|d:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|d:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\wwwroot\\css\\contacts.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|solutionrelative:wwwroot\\css\\contacts.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|d:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|solutionrelative:models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/course_melshavs_db/True/SqlTable/dbo.Products.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|d:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|solutionrelative:views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|d:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4A5848A-6C16-4A3A-A58E-5D25C58BA8A7}|course_melshavs.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T18:33:49.461Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AdminPanel.cshtml",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Views\\Admin\\AdminPanel.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\AdminPanel.cshtml",
+              "ToolTip": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Views\\Admin\\AdminPanel.cshtml",
+              "RelativeToolTip": "Views\\Admin\\AdminPanel.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAYwBQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T20:08:05.823Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAADwv8UAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T20:24:56.12Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Orders.cshtml",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Views\\Admin\\Orders.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Orders.cshtml",
+              "ToolTip": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Views\\Admin\\Orders.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Orders.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T20:22:54.074Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DeliveryController.cs",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Controllers\\DeliveryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DeliveryController.cs",
+              "ToolTip": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Controllers\\DeliveryController.cs",
+              "RelativeToolTip": "Controllers\\DeliveryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T00:18:45.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MenuController.cs",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Controllers\\MenuController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MenuController.cs",
+              "ToolTip": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Controllers\\MenuController.cs",
+              "RelativeToolTip": "Controllers\\MenuController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T00:31:50.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Views\\Account\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\ChangePassword.cshtml",
+              "ToolTip": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Views\\Account\\ChangePassword.cshtml",
+              "RelativeToolTip": "Views\\Account\\ChangePassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T22:33:38.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Views\\Account\\Profile.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Profile.cshtml",
+              "ToolTip": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Views\\Account\\Profile.cshtml",
+              "RelativeToolTip": "Views\\Account\\Profile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T18:32:16.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ContactsController.cs",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Controllers\\ContactsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ContactsController.cs",
+              "ToolTip": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Controllers\\ContactsController.cs",
+              "RelativeToolTip": "Controllers\\ContactsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T00:18:38.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CartController.cs",
+              "ToolTip": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Controllers\\CartController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T23:27:38.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AboutController.cs",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Controllers\\AboutController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AboutController.cs",
+              "ToolTip": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Controllers\\AboutController.cs",
+              "RelativeToolTip": "Controllers\\AboutController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T00:18:24.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Controllers\\AccountController.cs*",
+              "RelativeToolTip": "Controllers\\AccountController.cs*",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowBwAAAB0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T00:35:28.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "dbo.Users [\u0414\u0430\u043D\u043D\u044B\u0435]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/course_melshavs_db/True/SqlTable/dbo.Users.sql",
+              "ToolTip": "dbo.Users [\u0414\u0430\u043D\u043D\u044B\u0435]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-12-11T22:31:00.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProfileEdit.cshtml",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Views\\Account\\ProfileEdit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\ProfileEdit.cshtml",
+              "ToolTip": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Views\\Account\\ProfileEdit.cshtml",
+              "RelativeToolTip": "Views\\Account\\ProfileEdit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T18:32:46.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EditProfileViewModel.cs",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Models\\EditProfileViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\EditProfileViewModel.cs",
+              "ToolTip": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Models\\EditProfileViewModel.cs",
+              "RelativeToolTip": "Models\\EditProfileViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T22:55:52.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "order-history.css",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\wwwroot\\css\\order-history.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\order-history.css",
+              "ToolTip": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\wwwroot\\css\\order-history.css",
+              "RelativeToolTip": "wwwroot\\css\\order-history.css",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-11T06:53:43.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OrderHistory.cshtml",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Views\\Account\\OrderHistory.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\OrderHistory.cshtml",
+              "ToolTip": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Views\\Account\\OrderHistory.cshtml",
+              "RelativeToolTip": "Views\\Account\\OrderHistory.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T18:31:26.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T01:04:15.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T15:25:38.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "login.css",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\wwwroot\\css\\login.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\login.css",
+              "ToolTip": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\wwwroot\\css\\login.css",
+              "RelativeToolTip": "wwwroot\\css\\login.css",
+              "ViewState": "AgIAAK0AAAAAAAAAAAAgwMkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-10T13:34:13.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "OrderConfirmation.cshtml",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Views\\Cart\\OrderConfirmation.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cart\\OrderConfirmation.cshtml",
+              "ToolTip": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Views\\Cart\\OrderConfirmation.cshtml",
+              "RelativeToolTip": "Views\\Cart\\OrderConfirmation.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T23:22:29.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "orders.css",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\wwwroot\\css\\orders.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\orders.css",
+              "ToolTip": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\wwwroot\\css\\orders.css",
+              "RelativeToolTip": "wwwroot\\css\\orders.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-11T03:56:00.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "change-password.css",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\wwwroot\\css\\change-password.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\change-password.css",
+              "ToolTip": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\wwwroot\\css\\change-password.css",
+              "RelativeToolTip": "wwwroot\\css\\change-password.css",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAwGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-11T01:16:09.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Views\\Menu\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Menu\\Index.cshtml",
+              "ToolTip": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Views\\Menu\\Index.cshtml",
+              "RelativeToolTip": "Views\\Menu\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwG4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-10T00:20:29.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "menu.css",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\wwwroot\\css\\menu.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\menu.css",
+              "ToolTip": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\wwwroot\\css\\menu.css",
+              "RelativeToolTip": "wwwroot\\css\\menu.css",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-11T02:57:10.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAswB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T20:10:40.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "main.css",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\wwwroot\\css\\main.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\main.css",
+              "ToolTip": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\wwwroot\\css\\main.css",
+              "RelativeToolTip": "wwwroot\\css\\main.css",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-09T19:52:07.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "profile.css",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\wwwroot\\css\\profile.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\profile.css",
+              "ToolTip": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\wwwroot\\css\\profile.css",
+              "RelativeToolTip": "wwwroot\\css\\profile.css",
+              "ViewState": "AgIAADIAAAAAAAAAAAAQwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-11T00:17:23.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Views\\Delivery\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Delivery\\Index.cshtml",
+              "ToolTip": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Views\\Delivery\\Index.cshtml",
+              "RelativeToolTip": "Views\\Delivery\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-10T22:37:22.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "profile-edit.css",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\wwwroot\\css\\profile-edit.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\profile-edit.css",
+              "ToolTip": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\wwwroot\\css\\profile-edit.css",
+              "RelativeToolTip": "wwwroot\\css\\profile-edit.css",
+              "ViewState": "AgIAACwAAAAAAAAAAAAowFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-11T01:09:36.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Views\\Admin\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Create.cshtml",
+              "ToolTip": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Views\\Admin\\Create.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Create.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T20:12:19.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Views\\Contacts\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Contacts\\Index.cshtml",
+              "ToolTip": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Views\\Contacts\\Index.cshtml",
+              "RelativeToolTip": "Views\\Contacts\\Index.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEoAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-10T13:39:17.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "register.css",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\wwwroot\\css\\register.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\register.css",
+              "ToolTip": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\wwwroot\\css\\register.css",
+              "RelativeToolTip": "wwwroot\\css\\register.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-10T15:13:20.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "delivery.css",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\wwwroot\\css\\delivery.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\delivery.css",
+              "ToolTip": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\wwwroot\\css\\delivery.css",
+              "RelativeToolTip": "wwwroot\\css\\delivery.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-10T22:44:43.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T19:25:51.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "contacts.css",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\wwwroot\\css\\contacts.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\contacts.css",
+              "ToolTip": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\wwwroot\\css\\contacts.css",
+              "RelativeToolTip": "wwwroot\\css\\contacts.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-10T13:37:02.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "Models\\CartItem.cs",
+              "ToolTip": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Models\\CartItem.cs",
+              "RelativeToolTip": "Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T01:15:59.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "dbo.Products.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/course_melshavs_db/True/SqlTable/dbo.Products.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/course_melshavs_db/True/SqlTable/dbo.Products.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-12-10T00:37:16.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Views\\Admin\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Edit.cshtml",
+              "ToolTip": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Views\\Admin\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T20:20:54.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\\u0443\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0412\u0435\u0431\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\course_melshavs\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAmwGoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T18:47:43.611Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

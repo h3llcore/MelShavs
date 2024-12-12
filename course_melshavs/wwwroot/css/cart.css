@@ -1,0 +1,99 @@
+﻿/* cart.css */
+
+.table {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+    .table th, .table td {
+        text-align: center;
+        vertical-align: middle;
+        padding: 12px;
+    }
+
+    .table th {
+        background-color: #f8f9fa;
+        color: #343a40;
+        font-weight: 600;
+    }
+
+    .table tbody tr {
+        border-bottom: 1px solid #e1e1e1;
+    }
+
+        .table tbody tr:hover {
+            background-color: #f8f9fa;
+        }
+
+    .table .btn {
+        transition: all 0.3s ease;
+    }
+
+    .table .btn-danger {
+        background-color: #dc3545;
+        border: none;
+    }
+
+        .table .btn-danger:hover {
+            background-color: #c82333;
+        }
+
+    .table .btn-light {
+        background-color: #f8f9fa;
+        border: 1px solid #ccc;
+    }
+
+        .table .btn-light:hover {
+            background-color: #e2e6ea;
+        }
+
+.text-center img {
+    max-width: 100px;
+    margin-bottom: 15px;
+}
+
+.btn-primary, .btn-secondary {
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+    }
+
+.btn-secondary {
+    background-color: #6c757d;
+    border: none;
+}
+
+    .btn-secondary:hover {
+        background-color: #5a6268;
+    }
+
+.mb-2 {
+    margin-bottom: 10px;
+}
+
+.text-end a {
+    margin-left: 10px;
+}
+
+/* Баннер */
+.banner {
+    margin-top: 10px;
+    width: 100%;
+    height: 415px;
+    background: url('/images/cart-banner1.jpg') no-repeat center;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.cart-container {
+    padding: 5px;
+}

@@ -1,0 +1,45 @@
+﻿@model IEnumerable<course_melshavs.Models.Order>
+
+<link rel="stylesheet" href="/css/orders.css">
+
+<h1 class="text-center mb-4">Керування замовленнями</h1>
+
+<div class="container">
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Номер замовлення</th>
+                <th>Користувач</th>
+                <th>Дата замовлення</th>
+                <th>Статус</th>
+                @* <th>Дії</th> *@
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var order in Model)
+            {
+                <tr>
+                    <td>@order.Id</td>
+                    <td>@order.User.Username</td>
+                    <td>@order.OrderDate.ToString("dd.MM.yyyy HH:mm")</td>
+                    <td>
+                        <form asp-action="UpdateOrderStatus" asp-controller="Admin" method="post">
+                            <input type="hidden" name="orderId" value="@order.Id" />
+                            <select name="status" class="form-select">
+                                <option value="Pending" selected="@(order.Status == "Pending")">Обробляється</option>
+                                <option value="InProgress" selected="@(order.Status == "InProgess")">Готується</option>
+                                <option value="InRoute" selected="@(order.Status == "InRoute")">У дорозі</option>
+                                <option value="Completed" selected="@(order.Status == "Completed")">Завершено</option>
+                                <option value="Cancelled" selected="@(order.Status == "Cancelled")">Відмінено</option>
+                            </select>
+                            <button type="submit" class="btn btn-primary btn-sm mt-1">Обновити</button>
+                        </form>
+                    </td>
+@*                     <td>
+                        <a href="/Admin/OrderDetails/@order.Id" class="btn btn-info btn-sm">Деталі</a>
+                    </td> *@
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

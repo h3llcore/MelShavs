@@ -1,0 +1,34 @@
+﻿@model course_melshavs.Models.EditProfileViewModel
+
+<link rel="stylesheet" href="/css/profile-edit.css" />
+
+<div class="edit-profile-container">
+    <h2 class="text-center mb-4">Редагування профілю</h2>
+    <form asp-action="ProfileEdit" method="post">
+        @if (!ViewData.ModelState.IsValid)
+        {
+            <div class="alert alert-danger">
+                <ul>
+                    @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                    {
+                        <li>@error.ErrorMessage</li>
+                    }
+                </ul>
+            </div>
+        }
+
+        <div class="form-group mb-3">
+            <label for="Username">Ім'я користувача</label>
+            <input type="text" id="Username" name="Username" class="form-control" value="@Model.Username" required />
+        </div>
+        <div class="form-group mb-3">
+            <label for="PhoneNumber">Номер телефону</label>
+            <input type="tel" id="PhoneNumber" name="PhoneNumber" class="form-control" value="@Model.PhoneNumber" pattern="^\+380\d{9}$" title="Номер телефону повинен починатися з +380 та містити 9 цифр" />
+        </div>
+        <div class="form-group mb-3">
+            <label for="CurrentPassword">Поточний пароль</label>
+                <input type="password" id="CurrentPassword" name="CurrentPassword" class="form-control" placeholder="Введіть пароль для підтвердження" required />
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Зберегти зміни</button>
+    </form>
+</div>

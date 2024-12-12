@@ -1,0 +1,59 @@
+﻿@model IEnumerable<course_melshavs.Models.CartItem>
+
+<link rel="stylesheet" href="/css/cart.css" />
+
+<!-- Банер -->
+<div class="banner"></div>
+<div class="cart-container"></div>
+
+
+<h1 class="text-center mb-4">Кошик</h1>
+
+<div class="container">
+    @if (!Model.Any())
+    {
+        <p class="text-center">Ваш кошик порожній.</p>
+    }
+    else
+    {
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Назва</th>
+                    <th>Кількість</th>
+                    <th>Ціна</th>
+                    <th>Загальна сума</th>
+                    <th>Дія</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Product.Name шаурма</td>
+                        <td>
+                            <form asp-action="UpdateQuantity" asp-controller="Cart" method="post" class="d-inline">
+                                <input type="hidden" name="cartItemId" value="@item.Id" />
+                                <button type="submit" class="btn btn-sm btn-light" name="action" value="decrease">-</button>
+                                <span>@item.Quantity</span>
+                                <button type="submit" class="btn btn-sm btn-light" name="action" value="increase">+</button>
+                            </form>
+                        </td>
+                        <td>@item.Product.Price</td>
+                        <td>@(item.Quantity * item.Product.Price)</td>
+                        <td>
+                            <form asp-action="RemoveFromCart" asp-controller="Cart" method="post">
+                                <input type="hidden" name="cartItemId" value="@item.Id" />
+                                <button type="submit" class="btn btn-danger btn-sm">Видалити</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <div class="text-end">
+            <a href="/Menu" class="btn btn-secondary">Продовжити замовлення</a>
+            <a href="/Cart/Checkout" class="btn btn-primary">Оформити замовлення</a>
+        </div>
+    }
+</div>

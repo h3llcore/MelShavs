@@ -1,0 +1,57 @@
+﻿@model course_melshavs.Models.User
+
+<link rel="stylesheet" href="/css/login.css" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+
+<div class="login-page">
+    <!-- ліва частина: привітання -->
+    <div class="login-left">
+        <img src="/images/login/welcome.jpg" alt="Welcome Image" class="login-image" />
+        <h1>Ласкаво просимо до MelShavs!</h1>
+        <p>Авторизуйтесь, щоб отримати доступ до вашого профілю, переглянути та зробити Ваше замовлення.</p>
+    </div>
+
+    <!-- права частина: форма входу -->
+    <div class="login-right">
+        <div class="login-card">
+            <h2 class="text-center mb-4">Увійти</h2>
+
+            @if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+            {
+                <div class="alert alert-danger">@ViewBag.ErrorMessage</div>
+            }
+
+            <form method="post">
+                <div class="form-group mb-3">
+                    <label for="Username">Логін</label>
+                    <input type="text" name="Username" class="form-control" placeholder="Введіть ваш логін" value="@Model?.Username" required />
+                </div>
+                <div class="form-group mb-3">
+                    <label for="Password">Пароль</label>
+                    <input type="password" name="Password" class="form-control" placeholder="Введіть пароль" required />
+                </div>
+                <button type="submit" class="btn btn-primary w-100 mb-3">Увійти</button>
+                @* <div class="text-center">
+                    <a href="/Account/ForgotPassword" class="text-secondary">Забули пароль?</a>
+                </div> *@
+            </form>
+            <hr class="my-4" />
+            <div class="social-login">
+                <p class="text-center">або увійдіть через</p>
+                <div class="d-flex justify-content-center gap-3">
+                    <a href="/Account/LoginWithGoogle" class="btn btn-outline-danger social-btn">
+                        <i class="bi bi-google"></i> Google
+                    </a>
+                    <a href="/Account/LoginWithFacebook" class="btn btn-outline-primary social-btn">
+                        <i class="bi bi-facebook"></i> Facebook
+                    </a>
+                </div>
+            </div>
+            <div class="text-center mt-3">
+                <p class="text-secondary">
+                    Ще не маєте акаунта? <a href="/Account/Register" class="text-primary">Зареєструйтесь</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

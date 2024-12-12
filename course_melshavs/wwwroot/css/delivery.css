@@ -1,0 +1,141 @@
+﻿/* ===== СТИЛИ ДЛЯ СТОРІНКИ ДОСТАВКИ ===== */
+
+/* Основной стиль для баннера */
+.delivery-banner-img {
+    width: 100%; /* Изображение занимает всю ширину родителя */
+    max-width: 600px; /* Ограниченная ширина */
+    height: auto; /* Сохраняем пропорции */
+    border-radius: 15px; /* Скругляем углы */
+    object-fit: cover; /* Центрируем изображение внутри контейнера */
+    margin: 15px auto; /* Уменьшенные отступы сверху и снизу */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Легкая тень */
+}
+
+/* Стили для секции "Як працює доставка" */
+.how-it-works {
+    background-color: #f9f9f9; /* Светлый фон для контраста */
+    border-radius: 15px; /* Скругленные углы секции */
+    padding: 40px 20px; /* Внутренние отступы */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Легкая тень для объемности */
+}
+
+    .how-it-works h2 {
+        font-size: 2rem; /* Увеличенный заголовок */
+        color: #000; /* Черный цвет текста */
+        font-weight: 700; /* Жирный шрифт */
+        margin-bottom: 20px; /* Отступ снизу */
+        text-transform: uppercase; /* Прописные буквы */
+        letter-spacing: 1px; /* Расстояние между буквами */
+    }
+
+    .how-it-works p {
+        font-size: 1.25rem; /* Увеличенный размер текста */
+        color: #333; /* Темный оттенок для хорошей читаемости */
+        line-height: 1.6; /* Увеличенное межстрочное расстояние */
+        margin-bottom: 15px; /* Отступы между абзацами */
+    }
+
+    .how-it-works ol {
+        padding-left: 20px; /* Отступ списка от края */
+        color: #555; /* Более мягкий оттенок текста */
+    }
+
+        .how-it-works ol li {
+            font-size: 1.2rem; /* Размер текста списка */
+            margin-bottom: 10px; /* Отступы между пунктами списка */
+            line-height: 1.5; /* Межстрочное расстояние */
+            position: relative; /* Позиционирование для украшения */
+            padding-left: 30px; /* Отступ текста внутри пункта */
+        }
+
+            .how-it-works ol li::before {
+                content: '✓'; /* Символ для акцента */
+                color: #007bff; /* Синий цвет маркера */
+                font-size: 1.2rem; /* Размер маркера */
+                position: absolute; /* Позиционирование маркера */
+                left: 0; /* Смещение влево */
+                top: 0; /* Смещение вверх */
+                margin-top: 3px; /* Центрирование по вертикали */
+            }
+
+    .how-it-works img {
+        border-radius: 15px; /* Скругленные углы изображения */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Легкая тень для объема */
+        transition: transform 0.3s ease; /* Анимация при наведении */
+    }
+
+        .how-it-works img:hover {
+            transform: scale(1.05); /* Легкое увеличение изображения при наведении */
+        }
+
+
+/* Стили для секции "Чому обрати доставку від MelShavs?" */
+.why-choose-delivery {
+    margin: 15px auto; /* Уменьшенные отступы между секциями */
+    padding: 15px 20px; /* Уменьшенные внутренние отступы */
+}
+
+    /* Иконки в секции "Чому обрати доставку від MelShavs?" */
+    .why-choose-delivery .icon-img {
+        width: 100%; /* Изображение растягивается по ширине родителя */
+        max-width: 230px; /* Ограничиваем максимальную ширину */
+        height: 230px; /* Фиксированная высота для квадратного формата */
+        object-fit: cover; /* Заполняем контейнер изображением */
+        border-radius: 8px; /* Скругляем углы */
+        margin: 15px auto; /* Центрируем и добавляем отступы */
+        background-color: #f0f8ff; /* Светло-синий фон */
+        padding: 0; /* Убираем внутренние отступы */
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); /* Легкая тень */
+    }
+
+    /* Заголовки и текст в секции "Чому обрати доставку від MelShavs?" */
+    .why-choose-delivery h3 {
+        color: rgb(0, 0, 0); /* Синий цвет заголовков */
+        font-size: 1.5rem; /* Увеличенный размер заголовка */
+        font-weight: bold;
+        margin-top: 15px;
+    }
+
+    .why-choose-delivery p {
+        font-size: 1rem; /* Увеличенный текст */
+        color: #555;
+        margin-bottom: 10px; /* Уменьшенные отступы снизу */
+    }
+
+    /* Карточки преимуществ */
+    .why-choose-delivery .col-md-4 {
+        margin-bottom: 20px; /* Уменьшенный отступ между карточками */
+        padding: 15px; /* Уменьшенные внутренние отступы */
+        background-color: #ffffff; /* Белый фон карточки */
+        border-radius: 10px; /* Скругленные углы */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень для карточек */
+        transition: transform 0.3s ease, box-shadow 0.3s ease; /* Анимация при наведении */
+    }
+
+        .why-choose-delivery .col-md-4:hover {
+            transform: scale(1.05); /* Увеличение карточки при наведении */
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Более заметная тень */
+        }
+
+/* Общий стиль для секции доставки */
+.delivery-section {
+    padding: 20px 20px; /* Уменьшенные внешние отступы внутри секции */
+    background-color: #f8f9fa; /* Светлый фон */
+    text-align: center; /* Центровка текста */
+    border-radius: 15px; /* Скругленные углы секции */
+    margin: 10px auto; /* Уменьшенные отступы сверху и снизу */
+}
+
+    .delivery-section h2 {
+        font-size: 2rem; /* Увеличиваем заголовок */
+        margin-bottom: 15px; /* Уменьшенный отступ снизу */
+        font-weight: bold;
+        color: #007bff; /* Синий цвет заголовка */
+    }
+
+    .delivery-section p {
+        font-size: 1rem;
+        color: #555;
+        margin-bottom: 15px; /* Уменьшенный отступ снизу */
+        line-height: 1.6; /* Увеличиваем расстояние между строками */
+    }

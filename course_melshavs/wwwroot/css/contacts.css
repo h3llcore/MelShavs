@@ -1,0 +1,77 @@
+﻿.contacts-banner {
+    background-image: url('/images/black.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    position: relative;
+    padding: 50px 0;
+    border-radius: 15px;
+}
+
+.contacts-banner-img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.contacts-banner h1,
+.contacts-banner p {
+    position: relative;
+    z-index: 2;
+}
+
+.contacts-info {
+    background-color: #f8f9fa;
+    padding: 40px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+    .contacts-info h2 {
+        color: #333;
+    }
+
+    .contacts-info h3 {
+        margin-top: 20px;
+        font-weight: bold;
+        color: #555;
+    }
+
+    .contacts-info a {
+        color: #007bff;
+        text-decoration: none;
+    }
+
+        .contacts-info a:hover {
+            text-decoration: underline;
+        }
+
+.feedback-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+    .feedback-form label {
+        font-weight: bold;
+        color: #555;
+    }
+
+    .feedback-form .form-control {
+        border-radius: 5px;
+    }
+
+    .feedback-form button {
+        background-color: #007bff;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        padding: 10px 20px;
+        transition: background-color 0.3s;
+    }
+
+        .feedback-form button:hover {
+            background-color: #0056b3;
+        }

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\course_melshavs.props" />
+</Project>

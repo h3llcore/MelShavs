@@ -1,0 +1,38 @@
+﻿@model IEnumerable<course_melshavs.Models.Order>
+<link rel="stylesheet" href="/css/order-history.css">
+
+<h1>Історія замовлень</h1>
+
+@if (!Model.Any())
+{
+    <p>Ви ще не зробили жодного замовлення.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Дата</th>
+                <th>Статус</th>
+                <th>Товари</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var order in Model)
+            {
+                <tr>
+                    <td>@order.OrderDate.ToShortDateString()</td>
+                    <td>@order.Status</td>
+                    <td>
+                        <ul>
+                            @foreach (var item in order.Items)
+                            {
+                                <li>@item.Product.Name шаурма x @item.Quantity</li>
+                            }
+                        </ul>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

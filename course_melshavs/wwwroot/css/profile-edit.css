@@ -1,0 +1,87 @@
+﻿/* Общие стили для контейнера */
+.edit-profile-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+
+    /* Заголовок */
+    .edit-profile-container h2 {
+        font-size: 32px;
+        color: #333;
+        margin-bottom: 30px;
+        font-weight: bold;
+    }
+
+    /* Стили для всех меток (labels) */
+    .edit-profile-container label {
+        font-size: 14px;
+        color: #555;
+        margin-bottom: 8px;
+        display: block;
+        font-weight: 600;
+    }
+
+    /* Стили для полей ввода (input) */
+    .edit-profile-container input.form-control {
+        border: 1px solid #ddd;
+        padding: 12px;
+        font-size: 16px;
+        width: 100%;
+        border-radius: 8px;
+        background-color: #f9f9f9;
+        transition: all 0.3s ease;
+    }
+
+        /* Фокус на полях ввода */
+        .edit-profile-container input.form-control:focus {
+            border-color: #4CAF50;
+            background-color: #fff;
+            outline: none;
+        }
+
+/* Ошибки валидации */
+.alert-danger {
+    color: #dc3545;
+    background-color: #f8d7da;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Стили для кнопки отправки */
+.edit-profile-container button.btn-primary {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    width: 100%;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+    /* Ховер-эффект для кнопки */
+    .edit-profile-container button.btn-primary:hover {
+        background-color: #45a049;
+    }
+
+/* Добавление отступов между полями */
+.edit-profile-container .form-group {
+    margin-bottom: 20px;
+}
+
+/* Стили для полей ввода с ошибками */
+.edit-profile-container input.form-control:invalid {
+    border-color: #dc3545;
+}
+
+/* Псевдоклассы для фокуса на полях ввода */
+.edit-profile-container input.form-control:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}

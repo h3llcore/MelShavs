@@ -1,0 +1,54 @@
+﻿@model course_melshavs.Models.User
+<link rel="stylesheet" href="/css/register.css" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+
+<div class="register-page">
+    <!-- Ліва частина: привітання та зображення -->
+    <div class="register-left">
+        <img src="/images/login/welcome.jpg" alt="Welcome Image" class="register-image" />
+        <h1>Ласкаво просимо до MelShavs!</h1>
+        <p>Пройдіть реєстрацію, щоб отримати доступ до вашого профілю, переглянути та зробити замовлення.</p>
+    </div>
+
+    <!-- Права частина: форма реєстрації -->
+    <div class="register-right">
+        <div class="register-card">
+            <h2 class="text-center mb-4">Реєстрація</h2>
+            <form asp-action="Register" method="post">
+                <div class="form-group mb-3">
+                    <label asp-for="Username">Ім'я користувача</label>
+                    <input asp-for="Username" class="form-control" placeholder="Введіть ім'я користувача" required />
+                    <span asp-validation-for="Username" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-3">
+                    <label asp-for="PhoneNumber">Номер телефону</label>
+                    <input asp-for="PhoneNumber" class="form-control" placeholder="Введіть номер телефону" pattern="^\+380\d{9}$" title="Номер телефону повинен починатися з +380 та містити 9 цифр" required />
+                    <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-3">
+                    <label asp-for="Password">Пароль</label>
+                    <input asp-for="Password" type="password" class="form-control" placeholder="Введіть пароль" required />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-3">
+                    <label asp-for="ConfirmPassword">Підтвердження пароля</label>
+                    <input asp-for="ConfirmPassword" type="password" class="form-control" placeholder="Підтвердіть пароль" required />
+                    <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                </div>
+                <div class="form-group form-check mb-3">
+                    <input asp-for="AgreePrivacyPolicy" type="checkbox" class="form-check-input" required />
+                    <label asp-for="AgreePrivacyPolicy" class="form-check-label">
+                        Я погоджуюсь з обробкою персональних даних і ознайомився з
+                        <a href="/PrivacyPolicy" target="_blank">політикою конфіденційності</a>
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block w-100">Зареєструватися</button>
+                <div class="text-center mt-4">
+                    <p class="text-secondary">
+                        Вже маєте акаунт? <a href="/Account/Login">Увійти</a>
+                    </p>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

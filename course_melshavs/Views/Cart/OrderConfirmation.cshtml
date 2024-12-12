@@ -1,0 +1,46 @@
+﻿@model course_melshavs.Models.Order
+
+<link rel="stylesheet" href="/css/order-confirmation.css" />
+
+<h1 class="text-center">Дякую за замовлення!</h1>
+
+<div class="container">
+    <p>Ваше замовлення успішно оформлено! </p>
+    <h3>Деталі:</h3>
+    <ul>
+        <li><strong>Номер замовлення:</strong> @Model.Id</li>
+        <li><strong>Дата оформлення:</strong> @Model.OrderDate.ToString("dd.MM.yyyy HH:mm")</li>
+        <li><strong>Статус замовлення:</strong> @Model.Status</li>
+        <li><strong>Адреса доставки:</strong> @Model.Address</li>
+        <li><strong>Примітка:</strong> @Model.AdditionalNotes</li>
+    </ul>
+
+    <h4>Товари:</h4>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Назва</th>
+                <th>Кількість</th>
+                <th>Ціна</th>
+                <th>Загальна сума</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Items)
+            {
+                <tr>
+                    <td>@item.Product.Name шаурма</td>
+                    <td>@item.Quantity</td>
+                    <td>@item.Product.Price</td>
+                    <td>@(item.Quantity * item.Product.Price)</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <!-- Button to go to the homepage -->
+    <div class="text-center mt-4">
+        <a href="/" class="btn btn-home">На головну</a>
+    </div>
+
+</div>

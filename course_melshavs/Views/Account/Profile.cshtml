@@ -1,0 +1,14 @@
+﻿@model course_melshavs.Models.User
+<link rel="stylesheet" href="/css/profile.css">
+
+<div class="profile-container mt-5">
+    <div class="card shadow p-4">
+        <h2 class="text-center mb-4">Особистий профіль</h2>
+        <p><strong>Логін користувача:</strong> @Model.Username</p>
+        <p><strong>Номер телефону:</strong> @(string.IsNullOrEmpty(Model.PhoneNumber) ? "Не вказаний" : Model.PhoneNumber)</p>
+        <div class="d-flex justify-content-between mt-4">
+            <a href="/Account/ProfileEdit" class="btn btn-outline-primary w-45 me-2">Редагувати профіль</a>
+            <a href="/Account/ChangePassword" class="btn btn-warning w-45 me-2">Змінити пароль</a>
+        </div>
+    </div>
+</div>

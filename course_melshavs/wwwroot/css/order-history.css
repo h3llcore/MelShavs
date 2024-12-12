@@ -1,0 +1,93 @@
+﻿/* Основные стили страницы */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Светлый фон */
+    color: #333; /* Основной цвет текста */
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Отступы снизу от header */
+header {
+    margin-bottom: 30px; /* Отступ снизу */
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+    color: #000000; /* Черный цвет заголовка */
+    margin-bottom: 30px; /* Отступ снизу от заголовка */
+    margin-top: 20px; /* Отступ сверху от заголовка */
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    color: #888; /* Серый текст для пустой истории */
+}
+
+/* Стили для таблицы */
+.table {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff; /* Белый фон таблицы */
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+    .table thead {
+        background-color: #4CAF50; /* Зеленая шапка таблицы */
+        color: #fff; /* Белый текст в шапке */
+        text-align: left;
+    }
+
+    .table th, .table td {
+        padding: 12px 15px;
+        border-bottom: 1px solid #ddd; /* Линии между строками */
+    }
+
+    .table tbody tr:hover {
+        background-color: #f1f1f1; /* Подсветка строки при наведении */
+    }
+
+    .table td ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+        .table td ul li {
+            margin: 5px 0;
+            color: #555;
+        }
+
+    /* Отображение статуса заказа */
+    .table td {
+        font-size: 16px;
+    }
+
+        .table td:first-child {
+            color: #333;
+            font-weight: bold;
+        }
+
+        .table td:nth-child(2) {
+            color: #4CAF50;
+            font-weight: bold;
+        }
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .table {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+}

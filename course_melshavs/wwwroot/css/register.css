@@ -1,0 +1,134 @@
+﻿/* ===== СТИЛІ ДЛЯ СТОРІНКИ РЕЄСТРАЦІЇ ===== */
+
+/* Загальний стиль для сторінки */
+.register-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    background: #f8f9fa; /* Світлий фон сторінки */
+}
+
+/* Ліва частина сторінки (вітання) */
+.register-left {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+    .register-left h1 {
+        font-size: 2.5rem; /* Великий заголовок */
+        margin-bottom: 20px;
+        color: #007bff; /* Синій колір */
+    }
+
+    .register-left p {
+        font-size: 1.2rem; /* Розмір тексту опису */
+        color: #495057; /* Тьмяний сірий */
+        margin-bottom: 20px;
+    }
+
+    .register-left .register-image {
+        max-width: 80%;
+        border-radius: 10px; /* Округлені краї зображення */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Легка тінь */
+    }
+
+/* Права частина сторінки (форма реєстрації) */
+.register-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Карта (контейнер) для форми реєстрації */
+.register-card {
+    width: 100%;
+    max-width: 400px; /* Максимальна ширина форми */
+    padding: 20px;
+    border-radius: 10px; /* Округлені краї контейнера */
+    background: #ffffff; /* Білий фон */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Легка тінь */
+}
+
+    .register-card h2 {
+        font-size: 1.8rem; /* Заголовок форми */
+        color: #343a40; /* Темно-сірий */
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+/* ===== СТИЛІ ДЛЯ ПОЛІВ ВВЕДЕННЯ ===== */
+
+/* Поля введення */
+.form-control {
+    border: 1px solid #ced4da; /* Тонка границя */
+    border-radius: 5px; /* Округлення країв */
+    padding: 8px 12px; /* Відступи */
+    font-size: 1rem; /* Стандартний розмір шрифту */
+    color: #495057; /* Темний текст */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Плавний перехід стилів */
+}
+
+    .form-control:focus {
+        border-color: #007bff; /* Синя рамка при фокусі */
+        box-shadow: 0 0 4px rgba(0, 123, 255, 0.25); /* Легка підсвітка */
+        outline: none; /* Відсутність стандартного обводу */
+    }
+
+/* Лейбли для полів введення */
+label {
+    font-size: 0.9rem; /* Невеликий шрифт */
+    font-weight: 500; /* Напівжирний текст */
+    color: #495057; /* Тьмяний сірий */
+    margin-bottom: 5px; /* Відступ між лейблом і полем */
+    display: block; /* Текст завжди над полем */
+}
+
+/* ===== СТИЛІ ДЛЯ КНОПКИ "ЗАРЕЄСТРУВАТИСЬ" ===== */
+.btn-primary {
+    background: #007bff; /* Синій фон */
+    color: #ffffff; /* Білий текст */
+    font-size: 1rem; /* Розмір тексту */
+    font-weight: bold; /* Жирний текст */
+    border: none; /* Без границі */
+    border-radius: 5px; /* Округлені краї */
+    padding: 10px 20px; /* Відступи всередині кнопки */
+    transition: background 0.3s ease, transform 0.2s ease; /* Плавні ефекти */
+}
+
+    .btn-primary:hover {
+        background: #0056b3; /* Темно-синій при наведенні */
+        transform: scale(1.05); /* Легке збільшення */
+        box-shadow: 0 4px 8px rgba(0, 91, 187, 0.2); /* Тінь при наведенні */
+    }
+
+/* ===== СТИЛІ ДЛЯ СОЦІАЛЬНИХ КНОПОК ===== */
+.social-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px; /* Відступ між іконкою та текстом */
+    padding: 10px 15px; /* Внутрішні відступи */
+    font-size: 1rem; /* Розмір тексту */
+    font-weight: bold; /* Жирний текст */
+    border-radius: 5px; /* Округлені краї */
+    transition: background 0.3s ease, transform 0.2s ease; /* Плавний перехід */
+}
+
+    .social-btn i {
+        font-size: 1.2rem; /* Розмір іконки */
+    }
+
+/* ===== СТИЛІ ДЛЯ ССИЛОК ===== */
+.text-secondary {
+    color: #6c757d; /* Тьмяний сірий */
+    text-decoration: none; /* Без підкреслення */
+    font-size: 0.9rem; /* Невеликий шрифт */
+}
+
+    .text-secondary:hover {
+        text-decoration: underline; /* Підкреслення при наведенні */
+        color: #343a40; /* Темно-сірий текст при наведенні */
+    }
