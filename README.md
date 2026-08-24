@@ -1,65 +1,75 @@
-
 ---
 
-# Інтернет-магазин для продажу шаурми
+# Online Shawarma Store
 
-## Опис проекту
+## Project Description
 
-Цей проект є інтернет-магазином для продажу шаурми, який включає як Backend, так і Frontend частини. Основною метою проекту було створення зручного та функціонального веб-застосунку для управління стравами, оформлення замовлень та інтеграції кошика.
+This project is an online store for selling shawarma that includes both Backend and Frontend parts. The main goal of the project was to create a convenient and functional web application for managing dishes, placing orders, and integrating a shopping cart.
 
-## Технології
+## Technologies
 
 ### Backend
-- **Фреймворк:** ASP.NET Core
-- **База даних:** Entity Framework
+- **Framework:** ASP.NET Core
+- **Database:** Entity Framework
 
 ### Frontend
-- **Мови:** HTML, CSS
-- **Бібліотеки:** Bootstrap
+- **Languages:** HTML, CSS
+- **Libraries:** Bootstrap
 
-## Функціональні можливості
+## Features
 
-- Управління стравами
-- Оформлення замовлень
-- Інтеграція кошика
-- Адміністративна панель для керування стравами, замовленнями та користувачами
+- Dish management
+- Order placement
+- Shopping cart integration
+- Admin panel for managing dishes, orders, and users
 
-## Поточний стан
+## Current Status
 
-Проект є функціональним, але потребує подальшого вдосконалення:
-- Покращення користувацького інтерфейсу
-- Додавання нових можливостей для адміністраторів
-- Проведення тестування та виправлення можливих помилок
+The project is functional but requires further improvements:
+- Improving the user interface
+- Adding new features for administrators
+- Testing and fixing potential issues
 
-## Встановлення та запуск
+## Installation and Setup
 
-1. Клонувати репозиторій:
+1. Clone the repository:
+
    ```bash
    git clone https://github.com/h3llcore/MelShavs.git
    ```
-2. Перейти до директорії проекту:
+
+2. Navigate to the project directory:
+
    ```bash
    cd MelShavs
    ```
-3. Встановити залежності для Backend:
+
+3. Install Backend dependencies:
+
    ```bash
    dotnet restore
    ```
-4. Запустити Backend сервер:
+
+4. Start the Backend server:
+
    ```bash
    dotnet run
    ```
-5. Встановити залежності для Frontend (якщо є):
+
+5. Install Frontend dependencies (if applicable):
+
    ```bash
    npm install
    ```
-6. Запустити Frontend сервер:
+
+6. Start the Frontend server:
+
    ```bash
    npm start
    ```
 
-## Контакти
+## Contact
 
-Якщо у вас є питання або пропозиції, будь ласка, зв'яжіться з нами за адресою: info_melshavs@gmail.com
+If you have any questions or suggestions, please contact us at: h3llcore.work@gmail.com
 
 ---
