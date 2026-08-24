@@ -70,6 +70,6 @@ The project is functional but requires further improvements:
 
 ## Contact
 
-If you have any questions or suggestions, please contact us at: h3llcore.work@gmail.com
+If you have any questions or suggestions, please contact me at: h3llcore.work@gmail.com
 
 ---
